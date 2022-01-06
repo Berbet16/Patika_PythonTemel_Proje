@@ -4,8 +4,10 @@ output = []
 
 def isSingle(t):
     if type(t) ==  str  or type(t) == float or type(t) == int:
+        
         return True
     else:
+        
         return False
 
 def flatten(x):
