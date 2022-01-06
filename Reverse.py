@@ -3,8 +3,10 @@ input = eval(input("add a input :"))
 
 def isList(t):
     if type(t) ==  list:
+        
         return True
     else:
+        
         return False
 
 def reverse(x):
