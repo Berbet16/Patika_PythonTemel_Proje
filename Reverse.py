@@ -16,8 +16,6 @@ def reverse(x):
                 x[i] = e[::-1]
         x = x[::-1]
     return x
-    
-
 
 print(reverse(input))
 
